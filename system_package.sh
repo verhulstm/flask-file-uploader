@@ -1,5 +1,5 @@
-sudo apt -y update
-sudo apt -y upgrade
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" update
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" upgrade
 
 sudo apt -y install python3
 sudo apt -y install python3-pip
