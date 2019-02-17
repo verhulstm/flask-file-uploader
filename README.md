@@ -10,7 +10,7 @@ File Upload Script which built on Python Flask and [jQuery-File-Upload](https://
 
 - Install system package. See the `system-package.sh` file. 
 
-- Run
+- Setup your vagrant box
 ```
 $ vagrant up
 ```
