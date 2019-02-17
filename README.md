@@ -17,13 +17,13 @@ $ vagrant up
 
 - Then install python packages:  
 ```
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 - Run it:
 
 ```
-$ python3 app.py
+$ python app.py
 ```
 
 - Go to http://127.0.0.1
