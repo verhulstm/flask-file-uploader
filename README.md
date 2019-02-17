@@ -6,6 +6,8 @@ File Upload Script which built on Python Flask and [jQuery-File-Upload](https://
 
 
 ## Setup
+- Use ubuntu 18.04 (this is what the included Vagrantfile wil setup for you)
+
 - Install system package. See the `system_package.txt` file. (*Unix)
 
 - Create virtual enviroment (use `virtualenv`) and activate it.
